@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+    <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"inline","switcher_text_color":"#f7f7f7","switcher_arrow_color":"#f2f2f2","switcher_border_color":"#161616","switcher_background_color":"#303030","switcher_background_shadow_color":"#474747","switcher_background_hover_color":"#3a3a3a","dropdown_text_color":"#eaeaea","dropdown_hover_color":"#748393","dropdown_background_color":"#474747"}</script>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src 'self' 'unsafe-inline' *; font-src *; img-src * data:; connect-src *; object-src *; child-src *;">
+
+    
+
+
+    <title>Cryptix Faucet</title>
+    <meta
+      name="description"
+      content="Request and receive free test coins for the Cryptix Network."
+    />
+    <link
+      rel="stylesheet"
+      
+      type="text/css"
+      href="/flow/flow-ux/resources/css/reset.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/flow/flow-ux/flow-ux.css" />
+    <link rel="stylesheet" type="text/css" href="/style/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="/style/main.css" />
+    <script src="/sockjs/sockjs.js"></script>
+    <script type="text/javascript">
+      var flow = {
+        theme: {
+          iconPath: "/fonts/fontawesome/sprites/",
+          iconFile: "light",
+          icons: {
+            //"info-circle": "light:acorn"
+          },
+        },
+      };
+    </script>
+    <script src="/webcomponentsjs/webcomponents-loader.js"></script>
+    <script type="module" src="/faucet-app.js"></script>
+    <script type="module" src="/flow/flow-ux/flow-ux.js"></script>
+  </head>
+  <body class="loading flow-theme-light v-box mini-left-menu" style="background-color: #03050E;">
+    <svg style="display: none">
+      <use href="/fonts/fontawesome/sprites/light.svg#home" />
+    </svg>
+    <div class="outer-container" style="background-color: #03050E; margin: 0 auto;">
+      <div class="container" style="display: flex; justify-content: flex-end; background-color: #03050E;">
+        <div class="gtranslate_wrapper" style="background-color: #03050E;"></div>
+      </div>
+    </div>
+    
+    <cryptix-faucet-app class="flex"></cryptix-faucet-app>
+
+  </body>
+</html>

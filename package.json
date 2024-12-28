@@ -1,0 +1,43 @@
+{
+  "name": "@cryptix/faucet",
+  "version": "0.3.14",
+  "description": "cryptix-faucet",
+  "scripts": {
+    "start": "node cryptix-faucet"
+  },
+  "main": "cryptix-faucet.js",
+  "authors": [
+    {
+      "name": "Cryptix Developers",
+      "discord": "https://discord.cryptix-network.org/"
+    }
+  ],
+  "dependencies": {
+    "@aspectron/flow-http": ">=0.2.4",
+    "@aspectron/flow-router": "aspectron/flow-router",
+    "@aspectron/flow-utils": ">=0.1.1",
+    "@aspectron/flow-ux": "1.1.1",
+    "@cryptix/grpc": "https://github.com/cryptix-network/cryptix-grpc",
+    "@cryptix/grpc-node": "https://github.com/cryptix-network/cryptix-grpc-node",
+    "@cryptix/wallet": "https://github.com/cryptix-network/cryptix-wallet",
+    "@cryptix/wallet-worker": "https://github.com/cryptix-network/cryptix-wallet-worker",
+    "@webcomponents/webcomponentsjs": "*",
+    "colors": "*",
+    "commander": "^6.2.1",
+    "cookie": "*",
+    "cookie-signature": "*",
+    "decimal.js": "^10.2.1",
+    "express": "4.17.1",
+    "express-session": "1.17.1",
+    "node-fetch": "^2.6.6",
+    "sockjs": "*",
+    "sockjs-client": "*",
+    "ws": "^7.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptix-network/node-cryptix-faucet"
+  },
+  "license": "ICS",
+  "private": true
+}
