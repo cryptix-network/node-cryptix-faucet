@@ -116,6 +116,8 @@ export class FaucetBalance extends BaseElement {
     return html`
 
       <div class="wrapper">
+		<img src="/images/logo/logo-final.png" style="max-width: 400px; width: 100%;" /><br /><br /><br />
+
         <div class="caption">Cryptix Faucet Balance</div>
         <div class="balance">${available}</div><br />
         <div class="info" row>

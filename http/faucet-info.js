@@ -53,14 +53,17 @@ export class FaucetInfo extends BaseElement {
   render() {
     return html`
       <div class="info">
-      <div class="caption" style="color: #00bcd4 !important; font-size: 32px !important;">Welcome to the Cryptix Faucet</div><br />
+      <div class="caption" style="color: #00bcd4 !important; font-size: 32px !important;">Cryptix Faucet</div><br />
       <div class="info-content">
         <p>The Cryptix Faucet provides free Cryptix Coins (CYTX) to users upon request.</p>
         <p>
           You can send or mine Cryptix at the designated faucet address. If the faucet has enough balance, it will send CYTX to the address you provide.
         </p><br />
         <p>Faucet deposits are accepted at this address:</p>
-        <p><b class="address-box">${this.address}</b></p><br />
+		<div class="max-width" style="max-width: 99%; word-break: break-all;">
+		  <p><b class="address-box">${this.address}</b></p><br />
+		</div>
+
         <p>
           Please note: Requests are limited to a maximum of <b style="color: red !important;">${CYTX(this.limit)} CYTX</b> per IP address every <b style="color: red !important;">24 hours</b>.
         </p>
@@ -70,7 +73,7 @@ export class FaucetInfo extends BaseElement {
               : "remaining"}.
           </p><br />
         <p>Don't have a wallet yet? You can easily create one for free by clicking below:</p>
-        <a href="#" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #4CAF50; color: white; text-align: center; border-radius: 5px; text-decoration: none; font-size: 14px; transition: background-color 0.3s;">
+        <a href="https://wallet-cryptix.duckdns.org/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #4CAF50; color: white; text-align: center; border-radius: 5px; text-decoration: none; font-size: 14px; transition: background-color 0.3s;">
           Create a Wallet
         </a><br />
         </div>

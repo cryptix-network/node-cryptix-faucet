@@ -135,13 +135,15 @@ class CryptixFaucetApp extends FlowApp {
               <faucet-transactions network="${network}"></faucet-transactions>
             </div>
             <div class="divider"></div>
-            <div col class="form-wrapper">
+            <div col class="form-wrapper" style="background-color: #0B0E13 !important; padding: 30px; border-radius: 10px;">
               <faucet-info
                 limit="${limit}"
                 available="${available}"
                 address="${address}"
               ></faucet-info>
-            <div class="cryptix_style" style="background-color: #0B0E13 !important; padding: 30px; border-radius: 10px; margin-top:20px; color: #03050E;">
+			  <br /><hr style="border: 1px solid #adadad; width: 100%; margin: 20px 0;">
+
+            <div class="cryptix_style" style="width: 95%; color: #03050E;">
               <faucet-form
                 network="${network}"
                 .networks="${this.networks}"

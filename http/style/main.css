@@ -421,9 +421,18 @@ cryptix-faucet-app .divider {
 }
 
 @media (max-width: 1048px) {
-  .balance-wrapper,
-  .form-wrapper {
-    max-width: 600px;
+  .balance-wrapper{
+    max-width: 900px;
+    margin: 0px auto;
+    min-width: 0px;
+    width: 95%;
+  }
+  
+  .caption {
+  font-size: 18px }
+  
+    .form-wrapper {
+    max-width: 900px;
     margin: 0px auto;
     min-width: 0px;
     width: 95%;
@@ -445,12 +454,37 @@ cryptix-faucet-app .divider {
   .balance-wrapper::after {
     height: 140%;
   }
+  
+:root {
+  --flow-input-width: 95%;
+  --flow-input-max-width: 95%;
+  --flow-input-margin: 10px 0;
+}
+
+.cryptix_style {min-height: 800px !important;
 }
 
 
 @media (max-width: 500px) {
-  .balance-wrapper,
-  .form-wrapper {
+  .balance-wrapper{
+    max-width: 500px;
+    margin: 0px auto;
+    min-width: 0px;
+    width: 95%;
+    word-break: break-all;
+    white-space: normal;
+  }
+  
+  :root {
+  --flow-input-width: 95%;
+  --flow-input-max-width: 95%;
+  --flow-input-margin: 10px 0;
+}
+
+.cryptix_style {min-height: 800px !important;
+  
+  
+    .form-wrapper {
     max-width: 500px;
     margin: 0px auto;
     min-width: 0px;
