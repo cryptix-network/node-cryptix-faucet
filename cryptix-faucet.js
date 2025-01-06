@@ -120,7 +120,7 @@ class CryptixFaucet extends EventEmitter {
           host,
           port,
           session: {
-            secret: "34343546756767567657534578678672346573237436523798",
+            secret: "your-key-here",
             key: "cryptix-faucet-website",
           },
         },
