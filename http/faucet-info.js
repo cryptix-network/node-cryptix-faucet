@@ -73,7 +73,7 @@ export class FaucetInfo extends BaseElement {
               : "remaining"}.
           </p><br />
         <p>Don't have a wallet yet? You can easily create one for free by clicking below:</p>
-        <a href="https://wallet-cryptix.duckdns.org/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #4CAF50; color: white; text-align: center; border-radius: 5px; text-decoration: none; font-size: 14px; transition: background-color 0.3s;">
+        <a href="https://wallet.cryptix-network.org/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #4CAF50; color: white; text-align: center; border-radius: 5px; text-decoration: none; font-size: 14px; transition: background-color 0.3s;">
           Create a Wallet
         </a><br />
         </div>
